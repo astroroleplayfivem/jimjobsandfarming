@@ -1,21 +1,20 @@
-g ingredients, players must now actively farm, harvest, and process items to complete certain job tasks — adding more realism and engagement to your server’s economy.FeaturesSeamless Integration between v-farming and Jim Jobs
-Players are required to farm and process specific ingredients for selected Jim Jobs
-Fully customizable item list and requirements
-Supports all major Jim Jobs locations (Burgershot, Cat Cafe, Tequilala, and more)
-Easy to add, remove, or modify any farming items
-Balanced progression — farming feels meaningful and rewarding
+This script integrates the popular v-farming resource with Jim Jobs, allowing players to gather and process raw farm items (such as potatoes, onions, milk, lettuce, etc.) to fulfill job requirements and earn rewards.Instead of simply buying ingredients, players must now actively farm, harvest, and process items to complete certain job tasks — adding more realism and engagement to your server’s economy. 
+- Features Seamless Integration between v-farming and Jim Jobs
+- Players are required to farm and process specific ingredients for selected Jim Jobs
+- Fully customizable item list and requirements
+- Supports all major Jim Jobs locations (Burgershot, Cat Cafe, Tequilala, and more)
+- Easy to add, remove, or modify any farming items
+- Balanced progression — farming feels meaningful and rewarding
 
-InstallationDownload the required scripts:Farming Script: v-farming by Virgildev
+Download the required scripts:
+Farming Script: v-farming by Virgildev
 Jim Jobs: Purchase on Tebex
 
-Replace the following shop configuration files with the ones provided in this combined resource:burgershot/Shared/bs_shops.lua
+Replace the following shop configuration files with the ones provided in this combined resource:
+burgershot/Shared/bs_shops.lua
 catcafe/Shared/catcafe_shops.lua
 tequilala/Shared/tequilala_shops.lua
 
-Configure the script to your liking in config.lua
-
-Note: You can easily add, remove, or edit any items in the config. The script will automatically use whatever items you define.
-Recommended Config OptionsYou can expand or modify the config.lua file with the following options:lua
 
 Config = {}
 
@@ -43,5 +42,5 @@ Config.Items = {
     -- ['tomato'] = { label = 'Tomato', price = 15 },
 }
 
-SupportIf you encounter any issues during installation or want to request additional features/integration with other Jim Jobs locations, feel free to open an issue on the repository or contact the developer directly.Made with  for the FiveM community.This version is much cleaner, better structured, professional, and easier to read for potential users. It clearly highlights the value of the script while keeping all the important information. Would you like me to also write a short README.md version or add a Preview / Showcase section?
+If you encounter any issues during installation or want to request additional features/integration with other Jim Jobs locations, feel free to open an issue on the repository or contact the developer directly.Made with  for the FiveM community.This version is much cleaner, better structured, professional, and easier to read for potential users. It clearly highlights the value of the script while keeping all the important information. Would you like me to also write a short README.md version or add a Preview / Showcase section?
 
