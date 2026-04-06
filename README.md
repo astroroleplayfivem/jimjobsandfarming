@@ -7,19 +7,10 @@ Original Script :
 FARMING : https://github.com/Virgildev/v-farming
 JIM JOBS ON TEBEX : https://jimathy666.tebex.io/
 
-Config = {}
-
-Config.Items = {
-    ['slicedpotato'] = { label = 'Sliced Potato', price = 10 },
-    ['potato']       = { label = 'Potato',       price = 10 },
-    ['slicedonion']  = { label = 'Sliced Onion', price = 10 },
-    ['milk']         = { label = 'Milk',         price = 10 },
-    ['lettuce']      = { label = 'Lettuce',      price = 10 },
-    ['onion']        = { label = 'Onion',        price = 10 },
-    ['sugar']        = { label = 'Sugar',        price = 10 },
-    ['orange']       = { label = 'Orange',       price = 10 },
-    ['strawberry']   = { label = 'Strawberry',   price = 10 },
-}
+Get the scripts above and go to the path below :
+Bugershot/Shared/bs_shops.lua - Replace This
+CatCafe/Shared/catcafe_shops.lua - Replace This
+Tequilala/Shared/tequilala_shops.lua - Replace This 
 
 You can add, remove, or modify any items as needed. The script will automatically use whatever items you define here.Additional Config Options (Recommended)You can expand config.lua with more options like:lua
 
